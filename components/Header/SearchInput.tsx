@@ -41,7 +41,7 @@ const SearchInput = () => {
           <input
             type="text"
             id="Search"
-            placeholder="Search Products.."
+            placeholder="Search Products..."
             className="w-full rounded-md border-accent px-2 py-2.5 pe-10 shadow-sm sm:text-sm"
             value={searchInput}
             onChange={handleInputChange}

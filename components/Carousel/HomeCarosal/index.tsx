@@ -34,12 +34,12 @@ const HomeCarosal = () => {
 
       <div className="flex flex-col justify-evenly items-center space-y-10 py-8 px-4 sm:px-6 md:px-8 lg:px-16 bg-gray-50">
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl text-blue-800 font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl text-cyan-800 font-bold">
             Welcome to Seacoast Surgical
           </h1>
         </div>
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-700">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-cyan-700">
             <strong>
               We believe in the strength of hard work, innovation, and
               consistency and make a difference through them.
@@ -64,26 +64,26 @@ const HomeCarosal = () => {
           <h3 className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-gray-700">
           We provide a wide range of{" "}
             <Link href="https://www.dynamicmedicalsolution.com/categories/general-instrumentation" legacyBehavior>
-              <a className="text-blue-800 underline font-bold">
+              <a className="text-cyan-800 underline font-bold">
                 surgical instruments
               </a>
             </Link>
             , which include{" "}
             <Link href="https://www.dynamicmedicalsolution.com/products/retractor" legacyBehavior>
-              <a className="text-blue-800 underline font-bold">
+              <a className="text-cyan-800 underline font-bold">
               retractors
               </a>
             </Link>
             ,{" "}
             <Link href="https://www.dynamicmedicalsolution.com/products/scalpels" legacyBehavior>
-              <a className="text-blue-800 underline font-bold">scalpel</a>
+              <a className="text-cyan-800 underline font-bold">scalpel</a>
             </Link>
             ,{" "}
             <Link
               href="https://www.dynamicmedicalsolution.com/products/suture"
               legacyBehavior
             >
-              <a className="text-blue-800 underline font-bold">
+              <a className="text-cyan-800 underline font-bold">
               suture
               </a>
             </Link>
@@ -240,7 +240,7 @@ const HomeCarosal = () => {
         </section> */}
 
         <div className="text-center max-w-5xl mx-auto py-8">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl text-gray-700 font-bold">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl text-cyan-700 font-bold">
             Why choose us?
           </h3>
 

@@ -101,13 +101,13 @@ const UserDropDown = () => {
         <div className="hidden md:block space-x-1 xl:space-x-2 2xl:space-x-3">
           <Link
             href={"/auth/register"}
-            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-blue-800"
+            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-cyan-700"
           >
             Register
           </Link>
           <Link
             href={"/auth/login"}
-            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-blue-800"
+            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-cyan-800"
           >
             Login
           </Link>
@@ -115,13 +115,13 @@ const UserDropDown = () => {
         <div className="md:hidden space-x-3">
           <Link
             href={"/auth/register"}
-            className="  rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-blue-800"
+            className="  rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-cyan-800"
           >
             Register
           </Link>
           <Link
             href={"/auth/login"}
-            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-blue-800"
+            className=" rounded-md px-5 py-2.5 text-sm font-medium text-white transition hover:text-gray-100/75 bg-cyan-800"
           >
             Login
           </Link>

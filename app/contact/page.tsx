@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="">
         {/* Information of the office  */}
         <div className="flex justify-center items-center flex-col">
-          <h1 className=" text-3xl md:text-6xl text-center font-semibold text-gray-800 py-3 ">
+          <h1 className=" text-3xl md:text-6xl text-center font-semibold text-cyan-800 py-3 ">
             Head Office
           </h1>
           <div>
@@ -43,7 +43,7 @@ export default function Contact() {
         </div>
         <div>
           {/* Form title  */}
-          <h2 className="text-4xl text-center  pr-0  font-semibold text-blue-700 pt-5 md:py-4">
+          <h2 className="text-4xl text-center  pr-0  font-semibold text-cyan-700 pt-5 md:py-4">
             Contact Form
           </h2>
 

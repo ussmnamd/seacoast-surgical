@@ -67,24 +67,14 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col justify-center items-center space-y-2  font-thin">
-              <Label className="text-center">© Copy Rights 2024</Label>
+              <Label className="text-center">© Copy Rights 2026</Label>
               <Label className="text-center">
                 All Rights Reserved.{" "}
-                <span className="text-red-700">Design By Artema Tech</span>
+                <span className="text-red-700">Design By Artema Medical</span>
               </Label>
               <div>
                 <ul className="flex flex-row items-center justify-center space-x-3 pt-2">
-                  <li>
-                    <Link href={"https://www.facebook.com/profile.php?id=61559257186859"} target="_blank">
-                      <ImFacebook className="w-8 h-8" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={"https://www.instagram.com/surgical.medical.instrument/"} target="_blank">
-                      {" "}
-                      <SiInstagram className="w-8 h-8" />
-                    </Link>
-                  </li>
+                  
                   <li>
                     {" "}
                     <Link href={"https://www.linkedin.com/company/seacoast-surgical-llc"} target="_blank">

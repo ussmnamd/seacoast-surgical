@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div className="w-full top-0 start-0 pb-5  z-10">
-      <header className=" bg-sky-800 ">
+      <header className=" bg-cyan-600 ">
         <div className=" flex h-16 py-10 items-center gap-0  sm:px-6 lg:px-3">
           <Link className="block text-teal-600 lg:mt-4 2xl:mr-3" href="/">
             <span className="sr-only">Home</span>
@@ -38,7 +38,7 @@ const Header = () => {
               <ul className="flex items-center justify-between gap-6 2xl:gap-8 text-sm">
                 <li>
                   <Link
-                    className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                     href="/"
                   >
                     Home
@@ -46,7 +46,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                     href="/about"
                   >
                     About
@@ -54,7 +54,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                     href="/certification"
                   >
                     Certification
@@ -65,7 +65,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                     href="/contact"
                   >
                     Contact
@@ -115,7 +115,7 @@ const Header = () => {
             <ul className="flex flex-col gap-4 text-sm">
               <li>
                 <a
-                  className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                  className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                   href="/"
                 >
                   Home
@@ -123,7 +123,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                  className="text-emerald-50 font-semibold text-lg transition hover:text-emerlad-200"
                   href="/about"
                 >
                   About
@@ -131,7 +131,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                  className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                   href="/certification"
                 >
                   Certification
@@ -142,7 +142,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  className="text-gray-900 font-semibold text-lg transition hover:text-gray-700"
+                  className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
                   href="/contact"
                 >
                   Contact

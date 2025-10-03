@@ -218,7 +218,7 @@ const ContactForm = () => {
             <Button
               type="submit"
               disabled={!isAcceptTerms}
-              className="text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none rounded text-lg disabled:opacity-70 disabled:cursor-not-allowed"
+              className="text-white bg-cyan-800 border-0 py-2 px-6 focus:outline-none rounded text-lg disabled:opacity-70 disabled:cursor-not-allowed"
             >
               Submit
             </Button>

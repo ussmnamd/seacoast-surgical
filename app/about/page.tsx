@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       {/* header style  */}
-      <div className="bg-gradient-to-tr from-blue-950 to-blue-600 flex justify-center items-center h-96">
+      <div className="bg-gradient-to-tr from-cyan-950 to-cyan-500 flex justify-center items-center h-96">
         <span className="text-4xl font-semibold text-white">About us</span>
       </div>
       {/* <section className="text-gray-600 body-font mt-5">

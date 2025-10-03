@@ -39,11 +39,11 @@ const CartButton = () => {
     return (
       <>
         <div className="">
-          <Link href={"/cart"} className="hover:text-gray-500">
+          <Link href={"/cart"} className="hover:text-emerald-200">
             <Badge content={cartItemCount} >
               {" "}
               {/* Display the cart item count */}
-              <FiShoppingCart className="w-7 h-7" />
+              <FiShoppingCart className="w-7 h-7 text-white hover:text-emerald-200" />
             </Badge>
           </Link>
         </div>
@@ -53,11 +53,11 @@ const CartButton = () => {
     return (
       <>
         <div className="">
-          <Link href={"/cart"} className="hover:text-gray-500">
+          <Link href={"/cart"} className="hover:text-emerald-200">
             <Badge content={cartItemCount} >
               {" "}
               {/* Display the cart item count */}
-              <FiShoppingCart className="w-7 h-7" />
+              <FiShoppingCart className="w-7 h-7 text-white hover:text-emerald-200" />
             </Badge>
           </Link>
         </div>
