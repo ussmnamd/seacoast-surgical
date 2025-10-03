@@ -9,7 +9,7 @@ import Image from "next/image";
 const HomeCarosal = () => {
   return (
     <>
-      <div className=" w-full mx-auto ">
+      <div className=" w-full mx-auto -mt-5">
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
@@ -119,7 +119,7 @@ const HomeCarosal = () => {
                 alt: "Needle Holders",
                 title: "Needle Holders",
                 description:
-                  "Needle holders of different sizes and designs are manufactured in Dynamic Medical. They are carefully designed to provide strong grip and precise control.",
+                  "Needle holders of different sizes and designs are manufactured in Seacoast Surgical. They are carefully designed to provide strong grip and precise control.",
               },
               {
                 href: "https://www.dynamicmedicalsolution.com/products/scissors",
@@ -127,7 +127,7 @@ const HomeCarosal = () => {
                 alt: "Surgical Scissors",
                 title: "Surgical Scissors",
                 description:
-                  "A wide variety of surgical scissors is designed in dynamic medical keeping in mind the requirement of every surgical domain. They differ greatly in design and size.",
+                  "A wide variety of surgical scissors is designed in Seacoast Surgical keeping in mind the requirement of every surgical domain. They differ greatly in design and size.",
               },
               {
                 href: "https://www.dynamicmedicalsolution.com/categories/orthopedic-instruments",
@@ -135,7 +135,7 @@ const HomeCarosal = () => {
                 alt: "Surgical Orthopedics",
                 title: "Surgical Orthopedics",
                 description:
-                  "The surgical orthopedics of Dynamic Medical hold special importance for their quality and designs. It includes a variety of massive instruments.",
+                  "The surgical orthopedics of Seacoast Surgical hold special importance for their quality and designs. It includes a variety of massive instruments.",
               },
               {
                 href: "https://www.dynamicmedicalsolution.com/products/dental-instruments",
@@ -148,7 +148,7 @@ const HomeCarosal = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col shadow-lg justify-center items-center w-full mb-8 px-4 transform transition-transform hover:scale-105"
+                className="flex flex-col shadow-lg rounded-xl justify-center items-center w-full mb-8 px-4 transform transition-transform hover:scale-105"
               >
                 <a
                   href={item.href}
@@ -270,7 +270,7 @@ const HomeCarosal = () => {
               href="https://www.dynamicmedicalsolution.com/contact"
               legacyBehavior
             >
-              <a className="text-blue-800 underline font-bold">contact us.</a>
+              <a className="text-cyan-800 underline font-bold">contact us.</a>
             </Link>
           </h3>
         </div>

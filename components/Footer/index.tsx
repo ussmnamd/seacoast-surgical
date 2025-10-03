@@ -70,7 +70,7 @@ const Footer = () => {
               <Label className="text-center">© Copy Rights 2026</Label>
               <Label className="text-center">
                 All Rights Reserved.{" "}
-                <span className="text-red-700">Design By Artema Medical</span>
+                {/*<span className="text-red-700">Design By Artema Medical</span>*/}
               </Label>
               <div>
                 <ul className="flex flex-row items-center justify-center space-x-3 pt-2">

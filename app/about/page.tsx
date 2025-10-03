@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       {/* header style  */}
-      <div className="bg-gradient-to-tr from-cyan-950 to-cyan-500 flex justify-center items-center h-96">
+      <div className="bg-gradient-to-tr from-cyan-950 to-cyan-500 flex justify-center items-center h-96 -mt-5">
         <span className="text-4xl font-semibold text-white">About us</span>
       </div>
       {/* <section className="text-gray-600 body-font mt-5">
@@ -30,7 +30,7 @@ export default function About() {
       </section> */}
       <div className=" px-5 lg:px-36 pt-10 pb-0 ">
         {/* Quote icon  */}
-        <FaQuoteLeft className="w-8 h-8 text-black/90" />
+        <FaQuoteLeft className="w-8 h-8 text-cyan-700/90" />
         {/* CEO information  */}
         {/* <section className="text-gray-600 body-font">
           <div className="flex  py-10 md:flex-row flex-col ">
@@ -44,12 +44,12 @@ export default function About() {
               </span>
               <div className="mb-8 leading-7 text-lg pr-0 md:pr-10">
               <br></br>
-              I am delighted to extend my warmest greetings as the CEO of Dynamic Med Medical Solutions. I would like to introduce you to our latest offerings. This catalog is a testament to our unwavering commitment to delivering exceptional products and services to meet your needs.
-              At Dynamic Med, we have always strived for excellence, innovation, and customer satisfaction. Our team of dedicated professionals has worked tirelessly to curate a selection of products and services that reflect our passion for quality and progress.
+              I am delighted to extend my warmest greetings as the CEO of Seacoast Surgical. I would like to introduce you to our latest offerings. This catalog is a testament to our unwavering commitment to delivering exceptional products and services to meet your needs.
+              At Seacoast Surgical, we have always strived for excellence, innovation, and customer satisfaction. Our team of dedicated professionals has worked tirelessly to curate a selection of products and services that reflect our passion for quality and progress.
               As you explore these pages, you will discover a wide range of offerings, each designed with your success and satisfaction in mind. We understand that our success is deeply intertwined with yours, and it is our mission to provide you with the tools and solutions you need to thrive.
               I want to express my gratitude to our loyal customers, dedicated employees, and valued partners who have been instrumental in our journey of growth and success. Your trust and support inspire us to push the boundaries of what is possible and to continuously raise the bar.
-              At Dynamic Med Medical Solutions, we embrace the future with optimism and excitement. We are committed to innovation, sustainability, and building lasting relationships. Together, we can achieve remarkable milestones and create a brighter future.
-              Thank you for choosing Dynamic Med as your partner on this journey. We look forward to serving you and exceeding your expectations.
+              At Seacoast Surgical, we embrace the future with optimism and excitement. We are committed to innovation, sustainability, and building lasting relationships. Together, we can achieve remarkable milestones and create a brighter future.
+              Thank you for choosing Seacoast Surgical as your partner on this journey. We look forward to serving you and exceeding your expectations.
               With utmost appreciation,<br></br>
               <span>
               <br></br>
@@ -76,7 +76,7 @@ export default function About() {
         <section className="text-gray-600 body-font">
           <div className="flex  py-10 xl:flex-row flex-col ">
             <div className="xl:flex-grow-0 md:w-[95%] xl:pl-10 md:pl-16  flex-col  xl:text-left">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-900">
                 Customizing your Innovation w/ Premium Surgical Instruments: Designed for Surgeons by Surgeons.
 
               </h1>
@@ -113,11 +113,11 @@ export default function About() {
         <section className="text-gray-600 body-font py-5">
           <div className="flex  xl:flex-row flex-col ">
             <div className="xl:flex-grow-0 md:w-[95%] xl:pl-10 md:pl-16  flex-col  xl:text-left">
-              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-900">
                 What sets Seacoast Surgical apart:
               </h2>
               <div className="mb-8 leading-relaxed text-lg pr-0 xl:pr-10">
-                Customizable Instruments tailored to your specific needs and surgical techniques
+               " Customizable Instruments tailored to your specific needs and surgical techniques
                 → Custom requests are fulfilled with a minimum of 15 pieces and a lead time of just 7 weeks.
                 510(k) FDA Approval, ISO 13485, and ASTM Standard certifications
                 Instruments crafted from premium German stainless steel
@@ -134,7 +134,7 @@ export default function About() {
                 standards.
                 Whether you're equipping a new facility or upgrading existing sets, we’re here to provide the reliable,
                 high-performance tools your team depends on.
-                We also provide PPE and DME products below market value. Request a quote today!
+                We also provide PPE and DME products below market value. Request a quote today!"
               </div>
             </div>
             <div className="xl:max-w-xl xl:w-full md:pl-16 xl:pl-0 w-[90%] md:w-[85%] mb-10 xl:mb-0">

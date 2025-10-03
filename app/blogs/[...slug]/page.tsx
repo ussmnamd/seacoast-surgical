@@ -1,8 +1,5 @@
 import { posts } from "@/.velite";
-import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
-
-import "../../../styles/mdx.css";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -107,7 +104,7 @@ export default async function PostPage({ params }: PostPageProps) {
           </p>
         ) : null}
         <hr className="my-4" />
-        <MDXContent code={post.body} />
+        
       </article>
     </>
   );

@@ -25,7 +25,7 @@ export default function Contact() {
               <div className="flex flex-row justify-center items-center space-x-3">
                 <BsEnvelope className="w-10 h-10 text-gray-600" />
                 <div className="flex flex-col  text-gray-800">
-                  <span className="font-bold text-lg">GENERAL ENQUIRES</span>
+                  <span className="font-bold text-lg text-cyan-700">GENERAL ENQUIRES</span>
                   <span className="text-sm md:text-md">
                    sales-team@seacoastsurgical.com
                   </span>
@@ -34,7 +34,7 @@ export default function Contact() {
               <div className="flex flex-row justify-center items-center space-x-3">
                 <BsTelephoneForward className="w-10 h-10 text-gray-600" />
                 <div className="flex flex-col  text-gray-800">
-                  <span className="font-bold text-lg ">TELEPHONE NUMBER</span>
+                  <span className="font-bold text-lg text-cyan-700 ">TELEPHONE NUMBER</span>
                   <span>+(321) 345-7969</span>
                 </div>
               </div>

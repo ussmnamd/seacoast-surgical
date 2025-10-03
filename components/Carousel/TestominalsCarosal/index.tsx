@@ -9,7 +9,7 @@ const TestominalCarosal = () => {
   return (
     <div className="mx-auto container justify-center mt-10">
       <div className="flex flex-col justify-center items-center p-4">
-      <span className="text-5xl font-semibold">Testimonials</span>
+      <span className="text-5xl font-semibold text-cyan-700">Testimonials</span>
       </div>
       <div>
         <Carousel
