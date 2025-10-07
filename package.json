@@ -75,8 +75,7 @@
     "eslint-config-next": "14.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "typescript": "5.4.5",
-    "velite": "^0.1.0-beta.13"
+    "typescript": "5.4.5"
   },
   "rules": {
     "@next/next/no-document-import-in-page": "off"
