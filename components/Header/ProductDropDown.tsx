@@ -38,12 +38,12 @@ const ProductDropDown: NextPage = ({}) => {
           className="inline-flex items-center overflow-hidden rounded-md  bg-cyan-600"
         >
           <button className=" flex justify-between items-center h-full lg:p-2  ">
-            <span className=" py-2 text-emerald-50 font-semibold text-lg transition hover:text-emerald-200">
+            <span className=" py-2 text-emerald-50 font-semibold text-lg transition hover:text-cyan-200">
               Products
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4 text-white hover:text-emerald-200"
+              className="h-4 w-4 text-white hover:text-cyan-200"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

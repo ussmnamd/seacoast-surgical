@@ -43,7 +43,7 @@ const CartButton = () => {
             <Badge content={cartItemCount} >
               {" "}
               {/* Display the cart item count */}
-              <FiShoppingCart className="w-7 h-7 text-white hover:text-emerald-200" />
+              <FiShoppingCart className="w-7 h-7 text-white hover:text-cyan-200" />
             </Badge>
           </Link>
         </div>

@@ -38,7 +38,7 @@ const Header = () => {
               <ul className="flex items-center justify-between gap-6 2xl:gap-8 text-sm">
                 <li>
                   <Link
-                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-cyan-200"
                     href="/"
                   >
                     Home
@@ -46,7 +46,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-cyan-200"
                     href="/about"
                   >
                     About
@@ -54,7 +54,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-cyan-200"
                     href="/certification"
                   >
                     Certification
@@ -65,7 +65,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-emerald-50 font-semibold text-lg transition hover:text-emerald-200"
+                    className="text-emerald-50 font-semibold text-lg transition hover:text-cyan-200"
                     href="/contact"
                   >
                     Contact
