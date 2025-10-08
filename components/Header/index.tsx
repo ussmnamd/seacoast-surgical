@@ -34,7 +34,7 @@ const Header = () => {
           </Link>
 
           <div className="flex flex-1 items-center justify-end lg:justify-between">
-            <nav aria-label="Global" className="hidden lg:block">
+            <nav aria-label="Global" className="hidden lg:block ml-6">
               <ul className="flex items-center justify-between gap-6 2xl:gap-8 text-sm">
                 <li>
                   <Link

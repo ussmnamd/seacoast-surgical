@@ -76,7 +76,7 @@ export default function About() {
         <section className="text-gray-600 body-font">
           <div className="flex  py-10 xl:flex-row flex-col ">
             <div className="xl:flex-grow-0 md:w-[95%] xl:pl-10 md:pl-16  flex-col  xl:text-left">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-900">
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-800">
                 Customizing your Innovation w/ Premium Surgical Instruments: Designed for Surgeons by Surgeons.
 
               </h1>
@@ -96,7 +96,7 @@ export default function About() {
                 precision, comfort, and durability at FACTORY DIRECT PRICING.
               </div>
             </div>
-            <div className="xl:max-w-xl xl:w-full md:pl-16 xl:pl-0 w-[90%] md:w-[85%] mb-10 xl:mb-0">
+            <div className="xl:max-w-xl xl:w-full md:pl-16 xl:pl-0 pt-44 w-[90%] md:w-[85%] mb-10 xl:mb-0">
               <Image
                 width={700}
                 height={700}
@@ -113,7 +113,7 @@ export default function About() {
         <section className="text-gray-600 body-font py-5">
           <div className="flex  xl:flex-row flex-col ">
             <div className="xl:flex-grow-0 md:w-[95%] xl:pl-10 md:pl-16  flex-col  xl:text-left">
-              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-900">
+              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-800">
                 What sets Seacoast Surgical apart:
               </h2>
               <div className="mb-8 leading-relaxed text-lg pr-0 xl:pr-10">
@@ -137,7 +137,7 @@ export default function About() {
                 We also provide PPE and DME products below market value. Request a quote today!"
               </div>
             </div>
-            <div className="xl:max-w-xl xl:w-full md:pl-16 xl:pl-0 w-[90%] md:w-[85%] mb-10 xl:mb-0">
+            <div className="xl:max-w-xl xl:w-full md:pl-16 pt-16 xl:pl-0 w-[90%] md:w-[85%] mb-10 xl:mb-0">
               <Image
                 width={700}
                 height={700}
